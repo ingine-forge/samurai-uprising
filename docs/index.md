@@ -7,18 +7,30 @@ While we excel in warfare, we also support members in other endeavors like tradi
 
 
 ## Requirements
-### 1. Join our Discord server
-Joining our Discord server is mandatory for effective communication and coordination. While Torn has its own chat system, Discord offers enhanced features and automation through bots for faction banking and other utilities. Click [here](tools/discord.md) for a guide on setting up and using Discord efficiently.
-
-**Join our server using this link**: [Samurai Uprising Discord](https://discord.gg/3Y2PBSBnJk){:target="\_blank"}
-
-### 2. Contact a Mentor
+### 1. Contact a Mentor
 If you haven't been contacted by a mentor yet, head over to [`#❓-help`](https://discord.gg/Yxa8EtYTtH){:target="\_blank"} channel on Discord and request assistance. Our mentors are here to guide you through our strategies and help you settle in.
 
-### 3. Use External Tools for Better Gameplay
+### 2. Join our Discord server
+Joining our Discord server is mandatory for effective communication and coordination. While Torn has its own chat system, Discord offers enhanced features and automation through bots for faction banking and other utilities. Click [here](tools/discord.md) for a guide on setting up and using Discord efficiently.
+
+**Join our server using this link**: [Samurai Uprising's Discord](https://discord.gg/3Y2PBSBnJk){:target="\_blank"}
+
+### 3. Join Tornstats
 To excel in Torn, utilizing external tools such as [TornTools](https://chromewebstore.google.com/detail/torntools/hjpaapdjcgbmeikfnahipphknonhlhib){:target="\_blank"}, [Torn Stats](https://tornstats.com/){:target="\_blank"}, and [YATA](https://yata.yt/){:target="\_blank"} is highly recommended. These tools provide crucial data for planning your strategies effectively.
 
-Regarding tools, our primary focus is on signing up for Torn Stats and YATA as a mandatory requirement. If you encounter difficulties setting them up, refer to our guides [here](tools/tornstats.md).
+Regarding tools, our primary focus is on signing up for Torn Stats as a mandatory requirement. If you encounter difficulties setting them up, refer to our guides [here](tools/tornstats.md).
+
+
+---
+!!! Danger "Required Applications"
+    Membership in both Torn Stats and the Discord server is mandatory, not optional.
+    
+    Upon joining the faction, ==**you have one week to fulfill this requirement**==.
+    
+    Failure to do so will result in you being kicked from the faction.
+    
+    If you encounter any difficulties, please communicate with higher ranks in Torn or on Discord.
+
 
 ---
 If you've made it this far, congratulations! You're finally ready to learn some things if you're new or feel lost in the game. We've prepared some extra guides that could be very helpful. Make sure to check them out!
