@@ -4,3 +4,5 @@ env
 
 # Build files
 site
+
+venv/

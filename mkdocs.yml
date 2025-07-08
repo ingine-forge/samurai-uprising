@@ -3,28 +3,22 @@ site_url: https://shahiutsav.github.io/samurai-uprising/
 site_author: ingine
 theme:
   name: material
+  font:
+    text: Murecho # Samurai
+    code: "Roboto, sans-serif" # Mafia
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+    scheme: slate
+    primary: red # Darker shade of black for dark mode
+    accent: orange # Dark red (Blood red)
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.indexes
+extra_css:
+  - assets/css/custom.css # Link to your custom CSS
 
 markdown_extensions:
   - attr_list
@@ -38,17 +32,17 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_generator:
+        !!python/name:material.extensions.emoji.to_svg # Page tree
 
 
-
-# Page tree
 nav:
-  - Home: 
-    - Welcome: index.md
-    - Basics: guide.md
-    
-  - Tools:
-    - TornStats: tools/tornstats.md
-    - Discord: tools/discord.md
-    # - YATA: tools/yata.md
+  - Home:
+      - Welcome: index.md
+      - Basics: guide.md
+      - Guides:
+          - War: guides/war.md
+      - Tools:
+          - TornStats: tools/tornstats.md
+          - Discord: tools/discord.md
+        # - YATA: tools/yata.md
