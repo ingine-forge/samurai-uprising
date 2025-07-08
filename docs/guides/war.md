@@ -29,8 +29,14 @@ No matter the type of war, you **must**:
 
 **Termed War Etiquette:**
 
-- Avoid hitting **offliners**. Idlers (15+ minutes inactive) are usually okay.
-- Talk to the opposing faction if you need to **med out** to speed up scoring.
+- Avoid hitting onliners. If your target is offline, use the "Leave" option instead of hospitalizing them. Idlers (15+ minutes inactive) are usually okay to hit.
+- Talk to the opposing faction if you or they can **med out** to speed up scoring.
+
+!!! Note "Etiquette is not always followed" 
+    While there are agreed-upon rules during termed wars, not everyone follows them.
+    Some players may be unaware, may not care, or accidents might happen (like being mistaken as idle or offline).
+
+    If this happens, send them a direct message. If they don't respond, notify the leadership team and they'll handle it from there.
 ---
 ### 2. **Un-termed (Real) Wars**
 - These are full-blown wars with no agreements.
@@ -57,27 +63,36 @@ Turtling means **making yourself unavailable for attacks**, usually by hospitali
 ### Other Options
 - **Bountying or Mercing**: While technically an option, we **do not** recommend or support this, and should be avoided entirely. After a player leaves the hospital, there is a **60-second protection window** during which outside attackers (like bounty hunters or mercs) **cannot** hit them. However, the **enemy faction can** still attack you during this time, which means they will almost always get to you first. It’s expensive, unreliable, and wastes faction resources. **Stick to self-hospitalizing or traveling.**
     
-- **Traveling**: A good choice if you're busy in real life. Just note that you **won’t be able to score**, and you’re **vulnerable to being camped while abroad**, as nothing can be done to help you until you return.
+- **Traveling**: A solid option if you're busy with real life and can't participate actively in war. Just remember that you **won’t be able to score**, and you’re **vulnerable to being camped while abroad**. No one can help you until you return, so travel smart.
+    
+
+Avoid having too many members flying to the same short-distance location at once. While some overlap is unavoidable, try to **spread out** travel destinations to reduce the risk of being picked off.
+
+Choose your travel destination based on how long you’ll be inactive:
+
+| **Flight Duration** | **Destinations**                   | **When to Use**                                                          |
+| ------------------- | ---------------------------------- | ------------------------------------------------------------------------ |
+| **Short flights**   | Mexico, Cayman Islands, Canada     | Ideal if you just need a quick break or want to reset your cooldowns.    |
+| **Medium flights**  | Hawaii, UK, Argentina, Switzerland | Gives more breathing room. Good if you'll be back within a few hours.    |
+| **Long flights**    | Japan, China, UAE, South Africa    | Best if you’ll be offline for an extended period. Keeps you safe longer. |
+
+
+
 
 ---
 
 ## War Strategy Checklist
 
-1. **Stack 900 to 1000 energy** beforehand.
-    
-2. **Use Vicodin** if you're attacking. It boosts stats by 25% and has a 4 to 6-hour cooldown.
-    
-3. Be available at **war start** if possible.
-    
-4. If unavailable, **turtle** or **travel** smart.
-    
-5. **Coordinate** in faction chat before attacking.
-    
-6. **Score efficiently**, not just frequently.
+- [x] **Stack 900 to 1000 energy** beforehand.  
+- [x] **Use Vicodin** if you're attacking. It boosts stats by 25% and has a 4 to 6-hour cooldown.  
+- [x] Be available at **war start** if possible.  
+- [x] If unavailable, **turtle** or **travel** smart.  
+- [x] **Coordinate** in faction chat before attacking.  
+- [x] **Score efficiently**, not just frequently.  
+- [x] **Leave offliners whenever possible.** Leaving offline players yields the best respect and shortens their hospital time, which gives us more chances to score on them again.  
+- [x] **Hospitalize active scorers.** If someone is online and actively hitting us, hospitalizing them forces them to use med cooldowns, slows down their scoring, or discourages them from continuing.  
+- [x] **Monitor your medical cooldown.** If you’re scoring consistently in a real war, you’re likely being hospitalized too. Med cooldowns run out fast, and once they’re gone, you’ll be stuck waiting to heal — which means less time scoring and a lower contribution overall.
 
-7. **Be mindful of your medical cooldown during wars.**
-
-    In real wars, if you're online and actively scoring, you're likely getting hospitalized as well, just like we're doing to their onliners. Keep an eye on your medical cooldown because it runs out faster than you think. Once it's gone, you'll be stuck waiting to heal, which means less time scoring and a lower overall contribution.
     
 
 ---
@@ -96,7 +111,7 @@ We reward players with **high average scores** during wars. Here’s how to make
     
 - **Use group attacks**. Hitting with teammates gives bonus respect.
     
-- **Retaliate smartly**. To earn retaliation bonus, you **must hospitalize** someone who attacked us within the last 5 minutes.
+- **Retaliate smartly**. To earn the retaliation bonus, you must hospitalize someone who attacked us within the last 5 minutes. This should only be done during un-termed (real) wars, or when given the green light by leadership.
     
 - **Leave or hospitalize wisely**:  
     → **Leave** if the target is offline.  
