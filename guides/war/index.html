@@ -1,0 +1,1089 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="ingine">
+      
+      
+        <link rel="canonical" href="https://shahiutsav.github.io/samurai-uprising/guides/war/">
+      
+      
+        <link rel="prev" href="../../guide/">
+      
+      
+        <link rel="next" href="../../tools/tornstats/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>War - Samurai Uprising</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Murecho:300,300i,400,400i,700,700i%7CRoboto,+sans-serif:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Murecho";--md-code-font:"Roboto, sans-serif"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#torn-faction-war-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Samurai Uprising" class="md-header__button md-logo" aria-label="Samurai Uprising" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Samurai Uprising
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              War
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Samurai Uprising" class="md-nav__button md-logo" aria-label="Samurai Uprising" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Samurai Uprising
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Basics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1_3" id="__nav_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    War
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    War
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-must-dos-in-every-war" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Must-Dos in Every War
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Must-Dos in Every War">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-stack-your-energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Stack Your Energy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-turn-off-your-revives" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Turn Off Your Revives
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-wars" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types of Wars
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types of Wars">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-termed-wars" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Termed Wars
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-un-termed-real-wars" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Un-termed (Real) Wars
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#turtling-how-to-avoid-bleeding-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turtling: How to Avoid Bleeding Points
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Turtling: How to Avoid Bleeding Points">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-turtling" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Turtling?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#war-strategy-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      War Strategy Checklist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scoring-how-to-earn-more-respect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scoring: How to Earn More Respect
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scoring: How to Earn More Respect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-tips-for-high-respect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Tips for High Respect:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_4" id="__nav_1_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tools
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/tornstats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TornStats
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tools/discord/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-must-dos-in-every-war" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Must-Dos in Every War
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Must-Dos in Every War">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-stack-your-energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Stack Your Energy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-turn-off-your-revives" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Turn Off Your Revives
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types-of-wars" class="md-nav__link">
+    <span class="md-ellipsis">
+      Types of Wars
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Types of Wars">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-termed-wars" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Termed Wars
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-un-termed-real-wars" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Un-termed (Real) Wars
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#turtling-how-to-avoid-bleeding-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turtling: How to Avoid Bleeding Points
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Turtling: How to Avoid Bleeding Points">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-turtling" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Turtling?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#war-strategy-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      War Strategy Checklist
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scoring-how-to-earn-more-respect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scoring: How to Earn More Respect
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Scoring: How to Earn More Respect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-tips-for-high-respect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Tips for High Respect:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="torn-faction-war-guide">Torn Faction War Guide</h1>
+<p><em>“Efficient, strategic, and brutal. That’s how we win.”</em></p>
+<h2 id="introduction">Introduction</h2>
+<p>War in Torn can be a thrill: fun, brutal, exhausting, and sometimes expensive. This guide covers the <strong>essentials of faction wars</strong>: what you must always do, the different types of wars, how to turtle, and how to <strong>score better</strong> so your hits actually help the team.</p>
+<p>Whether you're a seasoned fighter or new to the chaos, follow these basics to ensure you're pulling your weight and not leaking points.</p>
+<hr />
+<h2 id="the-must-dos-in-every-war">The Must-Dos in Every War</h2>
+<p>No matter the type of war, you <strong>must</strong>:</p>
+<h3 id="1-stack-your-energy">1. <strong>Stack Your Energy</strong></h3>
+<ul>
+<li>Always have <strong>900 to 1000 energy</strong> ready before war starts.</li>
+<li>This ensures you're prepared to attack when needed, and the faction can rely on you.</li>
+</ul>
+<h3 id="2-turn-off-your-revives">2. <strong>Turn Off Your Revives</strong></h3>
+<ul>
+<li>Do <strong>not</strong> let the enemy revive and re-farm you.</li>
+<li>Go to your settings and <strong>disable revives</strong> before war begins.</li>
+</ul>
+<p><img alt="alt text" src="../../assets/images/guides/revives-off.png" /></p>
+<hr />
+<h2 id="types-of-wars">Types of Wars</h2>
+<h3 id="1-termed-wars">1. <strong>Termed Wars</strong></h3>
+<ul>
+<li>These are pre-arranged or negotiated fights with another faction.</li>
+<li>Usually, it's decided in advance who wins or loses, but we aim to <strong>maximize rewards</strong> regardless.</li>
+</ul>
+<p><strong>Termed War Etiquette:</strong></p>
+<ul>
+<li>Avoid hitting <strong>offliners</strong>. Idlers (15+ minutes inactive) are usually okay.</li>
+<li>Talk to the opposing faction if you need to <strong>med out</strong> to speed up scoring.</li>
+</ul>
+<hr />
+<h3 id="2-un-termed-real-wars">2. <strong>Un-termed (Real) Wars</strong></h3>
+<ul>
+<li>These are full-blown wars with no agreements.</li>
+<li>Everything is fair game, and winning <strong>depends entirely on us</strong>: strategy, activity, and teamwork.</li>
+</ul>
+<hr />
+<h2 id="turtling-how-to-avoid-bleeding-points">Turtling: How to Avoid Bleeding Points</h2>
+<p>If you <strong>can’t be online</strong> during the war, or are underpowered compared to the opponent, your top priority is to <strong>avoid getting farmed</strong>.</p>
+<h3 id="what-is-turtling">What Is Turtling?</h3>
+<p>Turtling means <strong>making yourself unavailable for attacks</strong>, usually by hospitalizing yourself or traveling. If you’re giving away more points than you’re scoring, you’re actively hurting the team. <strong>Your first priority is to avoid being an easy target.</strong> Don’t be that guy.</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Hospital Time</th>
+<th>Efficiency</th>
+<th>Requirement</th>
+<th>Medical Cooldown</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Blood Bags</strong></td>
+<td>120 mins</td>
+<td>Great</td>
+<td>Intravenous Therapy course</td>
+<td>30 mins</td>
+<td>Free from faction armory</td>
+</tr>
+<tr>
+<td><strong>Ipecac Syrup</strong></td>
+<td>60–90 mins</td>
+<td>Good alternative without the course</td>
+<td>None</td>
+<td>30 mins</td>
+<td>Free from faction armory</td>
+</tr>
+<tr>
+<td><strong>Small Explosive Device</strong></td>
+<td>5 hours</td>
+<td>Best if you're going to sleep</td>
+<td>None</td>
+<td>None</td>
+<td>~6.2m (as of 07/08/25)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="other-options">Other Options</h3>
+<ul>
+<li>
+<p><strong>Bountying or Mercing</strong>: While technically an option, we <strong>do not</strong> recommend or support this, and should be avoided entirely. After a player leaves the hospital, there is a <strong>60-second protection window</strong> during which outside attackers (like bounty hunters or mercs) <strong>cannot</strong> hit them. However, the <strong>enemy faction can</strong> still attack you during this time, which means they will almost always get to you first. It’s expensive, unreliable, and wastes faction resources. <strong>Stick to self-hospitalizing or traveling.</strong></p>
+</li>
+<li>
+<p><strong>Traveling</strong>: A good choice if you're busy in real life. Just note that you <strong>won’t be able to score</strong>, and you’re <strong>vulnerable to being camped while abroad</strong>, as nothing can be done to help you until you return.</p>
+</li>
+</ul>
+<hr />
+<h2 id="war-strategy-checklist">War Strategy Checklist</h2>
+<ol>
+<li>
+<p><strong>Stack 900 to 1000 energy</strong> beforehand.</p>
+</li>
+<li>
+<p><strong>Use Vicodin</strong> if you're attacking. It boosts stats by 25% and has a 4 to 6-hour cooldown.</p>
+</li>
+<li>
+<p>Be available at <strong>war start</strong> if possible.</p>
+</li>
+<li>
+<p>If unavailable, <strong>turtle</strong> or <strong>travel</strong> smart.</p>
+</li>
+<li>
+<p><strong>Coordinate</strong> in faction chat before attacking.</p>
+</li>
+<li>
+<p><strong>Score efficiently</strong>, not just frequently.</p>
+</li>
+<li>
+<p><strong>Be mindful of your medical cooldown during wars.</strong></p>
+<p>In real wars, if you're online and actively scoring, you're likely getting hospitalized as well, just like we're doing to their onliners. Keep an eye on your medical cooldown because it runs out faster than you think. Once it's gone, you'll be stuck waiting to heal, which means less time scoring and a lower overall contribution.</p>
+</li>
+</ol>
+<hr />
+<h2 id="scoring-how-to-earn-more-respect">Scoring: How to Earn More Respect</h2>
+<p>A common issue: high-stat players logging in briefly, farming weak targets, leaking points, and logging off. We appreciate your effort, but <strong>efficiency matters more than raw activity</strong>.</p>
+<p>We reward players with <strong>high average scores</strong> during wars. Here’s how to make every hit count:</p>
+<h3 id="key-tips-for-high-respect">Key Tips for High Respect:</h3>
+<ul>
+<li>
+<p><strong>Target higher-level players</strong>. The higher the level, the better your base respect.</p>
+</li>
+<li>
+<p><strong>Join chains early</strong>. Respect increases the deeper into the chain you are.</p>
+</li>
+<li>
+<p><strong>Use group attacks</strong>. Hitting with teammates gives bonus respect.</p>
+</li>
+<li>
+<p><strong>Retaliate smartly</strong>. To earn retaliation bonus, you <strong>must hospitalize</strong> someone who attacked us within the last 5 minutes.</p>
+</li>
+<li>
+<p><strong>Leave or hospitalize wisely</strong>:<br />
+    → <strong>Leave</strong> if the target is offline.<br />
+    → <strong>Hospitalize</strong> if they’re online to prevent them from hitting back.</p>
+</li>
+<li>
+<p><strong>Always hit war targets</strong>, unless none are available and the chain needs saving.</p>
+</li>
+<li>
+<p><strong>Go for fair fights</strong>. Hitting targets near your stat range gives up to <strong>3× respect</strong>. Avoid extremely weak targets.</p>
+</li>
+</ul>
+<p>In short: <strong>attack efficiently, not lazily</strong>. Think before you hit. Every point matters—both what you gain and what you give away.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.expand", "navigation.path", "navigation.top", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
